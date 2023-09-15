@@ -1,3 +1,3 @@
 # Web Development Competion
 ## Arun - Rohit Team
-![](media/banner2.png)
+![alt text](media/banner2.png)
