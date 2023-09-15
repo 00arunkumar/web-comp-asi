@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+header{
+ display: flex;
+}
+header img{
+    max-width: 20%;
+    margin-left: 1%;
+}
+#blank{
+    max-width: 45%;
+    width: 45%;
+}
+#navbar{
+    font-weight: 800;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+}
+header ul{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    text-align: end;
+    list-style: none;
+}
+header ul li{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0% 3%;
+}
+header ul li a{ 
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #3689d3;
+    font-size: x-large;
+}
+
+#one{
+    background: url("media/banner.jpg");
+    width: 100%;
+    max-width: 100% ;
+}
+
+#one img{
+    width: inherit;
+}
+#one button{
+    font-size: xx-large;
+    position: absolute;
+    top: 76%;
+    width: 10%;
+    left: 6%;
+    z-index: 2;
+    background-color: #d97a00;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 3px #0000006e;
+}
+#one button a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+#two{
+    display: flex;
+    padding: 2%;
+
+}
+#two div{
+    padding: 2% ;
+    border-left: 10px solid #ff9933;
+    box-shadow: 16px 0px 21px 1px #0000006e;
+}
+#two h1{
+    color: #ff9933;
+    margin: 3% 0%;
+}
+#two button{
+    font-size: large;
+    z-index: 2;
+    background-color: #d97a00;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 3px #0000006e;
+    margin: 2%;
+    padding: 1%;
+}
+#two button a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+#extra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d97a00 ;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 5%;
+    font-weight: bolder;
+    box-shadow: 2px 3px 4px 3px #0000006e
+}
+
+#three-one{
+    display: flex;
+    overflow-x: scroll;
+    margin: 1%;
+}
+   
+.card{
+    width:363px;
+    margin: 3%;
+    background: white;
+    box-shadow: #d97a00;
+    box-shadow: 2px 3px 4px 3px #0000006e;
+    border-radius: 3%;
+
+}
+.card img{
+   width: 100%;
+}
+.event-text{
+  width: inherit;
+  padding: 5%;
+}
+.event-text h2{
+    color: #d97a00;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#four-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d97a00 ;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    box-shadow: 2px 3px 4px 3px #0000006e
+
+}
+
+#club-text{
+    padding: 5%;
+}
+
+#four{
+    display: flex;
+    margin: 0% 5% 5% 5%; 
+    justify-content: center;
+    align-items: center;
+}
+
+#feedback{
+    background-color: #efefef;
+}
+#feedback h1{
+    text-align: center;
+    font-size: 3em;
+    background-color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    border: 1px solid #ffa5003b;
+    border-radius: 2%;
+    margin: 1%;
+    text-align: center;
+}
+#feedback-submit{
+    width: 50%;
+    font-size: large;
+    z-index: 2;
+    background-color: #d97a00;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 3px #0000006e;
+    margin: 2%;
+    padding: 1%;
+    color: white;
+}
+
+
+
+
+
+
+
+/*Contact*/
+#contact{
+    background: linear-gradient(orange,white);
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+    
+}
+#contact-text{
+    text-align: center;
+    width: 50%;
+    margin-top: 2%;
+    padding-right: 2%;
+    
+}
+
+#contact-text div{
+    padding: 3%;
+    font-size: 2rem;
+   
+}
+#contact-text div p{
+    padding: 1%;
+}
+
+#contact-text h1{
+    font-size: 3em;
+    color: white;
+    border-bottom: 3px solid white;
+}
